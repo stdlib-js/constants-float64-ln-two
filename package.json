@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-ln-two",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Natural logarithm of 2.",
   "license": "Apache-2.0",
   "author": {
