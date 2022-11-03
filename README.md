@@ -24,38 +24,30 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of `2`.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-ln-two
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-LN2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var LN2 = require( 'path/to/vendor/umd/constants-float64-ln-two/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.LN2;
-})();
-</script>
+var LN2 = require( '@stdlib/constants-float64-ln-two' );
 ```
 
 #### LN2
@@ -79,21 +71,11 @@ var bool = ( LN2 === 0.6931471805599453 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var LN2 = require( '@stdlib/constants-float64-ln-two' );
 
 console.log( LN2 );
 // => 0.6931471805599453
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -102,7 +84,57 @@ console.log( LN2 );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/ln_two.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_LN2
+
+Macro for the [natural logarithm][@stdlib/math/base/special/ln] of `2`.
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -157,8 +189,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-float64-ln-two.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-float64-ln-two
 
-[test-image]: https://github.com/stdlib-js/constants-float64-ln-two/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/constants-float64-ln-two/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/constants-float64-ln-two/actions/workflows/test.yml/badge.svg?branch=v0.0.8
+[test-url]: https://github.com/stdlib-js/constants-float64-ln-two/actions/workflows/test.yml?query=branch:v0.0.8
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float64-ln-two/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float64-ln-two?branch=main
@@ -187,11 +219,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-ln-two/main/LICENSE
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/ln-ten]: https://github.com/stdlib-js/constants-float64-ln-ten/tree/umd
+[@stdlib/constants/float64/ln-ten]: https://github.com/stdlib-js/constants-float64-ln-ten
 
 <!-- </related-links> -->
 
