@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@esm/index.mjs';
+import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@v0.0.8-esm/index.mjs';
 ```
 
 #### LN2
@@ -61,7 +61,7 @@ var bool = ( LN2 === 0.6931471805599453 );
 <body>
 <script type="module">
 
-import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@esm/index.mjs';
+import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@v0.0.8-esm/index.mjs';
 
 console.log( LN2 );
 // => 0.6931471805599453
