@@ -144,7 +144,7 @@ Macro for the [natural logarithm][@stdlib/math/base/special/ln] of `2`.
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float64/ln-ten`][@stdlib/constants/float64/ln-ten]</span><span class="delimiter">: </span><span class="description">natural logarithm of 10.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/ln-ten`][@stdlib/constants/float64/ln-ten]</span><span class="delimiter">: </span><span class="description">natural logarithm of 10.</span>
 
 </section>
 
