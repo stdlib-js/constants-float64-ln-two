@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@deno/mod.js';
+import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@v0.1.0-deno/mod.js';
 ```
 
 #### LN2
@@ -67,7 +67,7 @@ var bool = ( LN2 === 0.6931471805599453 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@deno/mod.js';
+import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@v0.1.0-deno/mod.js';
 
 console.log( LN2 );
 // => 0.6931471805599453
