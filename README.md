@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-ln-two/tags). For example,
+
+```javascript
 import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@v0.2.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( LN2 === 0.6931471805599453 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@v0.2.0-deno/mod.js';
+import LN2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two@deno/mod.js';
 
 console.log( LN2 );
 // => 0.6931471805599453
